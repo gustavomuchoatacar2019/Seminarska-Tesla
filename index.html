@@ -1,15 +1,73 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<style>
-    body {background-color: #c5e8ed;}
-    mark {background-color: #7cfc00;}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tesla | Home</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<head>
-<style>
- table, th, td {border: 1px solid black;}  
-</style>
-</head>
+
 <body>
-  <h1 style="text-align: center;">TESLA</h1>
-  <h4 style="text-align: center;">Podjetje ki proizvaja električna vozila</h4>
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="models.html">Models</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content - Home Page -->
+  <main>
+    <section>
+      <h1>Welcome to Tesla</h1>
+      <p>Discover the future of sustainable transportation with Tesla.</p>
+      <a href="models.html" class="btn">Explore Models</a>
+    </section>
+
+    <section>
+      <h2>Latest Models</h2>
+      <div class="model-card">
+        <img src="model1.jpg" alt="Model 1">
+        <h3>Model 1</h3>
+        <p>Electric car designed for urban commuting.</p>
+        <a href="model1.html" class="btn">View Details</a>
+      </div>
+      <div class="model-card">
+        <img src="model2.jpg" alt="Model 2">
+        <h3>Model 2</h3>
+        <p>Luxury electric sedan with advanced features.</p>
+        <a href="model2.html" class="btn">View Details</a>
+      </div>
+      <div class="model-card">
+        <img src="model3.jpg" alt="Model 3">
+        <h3>Model 3</h3>
+        <p>Affordable electric car for everyday use.</p>
+        <a href="model3.html" class="btn">View Details</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Questionnaire</h2>
+      <p>We would love to hear your feedback. Please take a moment to answer a short questionnaire.</p>
+      <iframe src="questionnaire.html" width="100%" height="400px" frameborder="0"></iframe>
+    </section>
+
+    <section>
+      <h2>Video</h2>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Tesla. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
